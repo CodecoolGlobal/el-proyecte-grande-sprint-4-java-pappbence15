@@ -12,7 +12,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    if: "contains(github.event.commits[0].message, '[build back-end]')"
+#    if: "contains(github.event.commits[0].message, '[build back-end]')"
 
     steps:
     - uses: actions/checkout@v2
