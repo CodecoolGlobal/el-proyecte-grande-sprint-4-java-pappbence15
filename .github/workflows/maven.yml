@@ -87,4 +87,4 @@ jobs:
           # build the app docker image using the Dockerfile
           # and run that image in a container that's pushed to Heroku
           usedocker: true
-          dontuseforce: false
+          dontuseforce: true
